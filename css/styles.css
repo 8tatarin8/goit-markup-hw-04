@@ -326,6 +326,14 @@ address {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    /*багатошаровість/затемнення*/
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.70), 
+        rgba(46, 47, 66, 0.70)
+        ),
+    /*шлях до картинки*/    
+    url('../images/hero/bg-people-office\ 1.jpg');
+    background-size: cover;
 }    
 
 .hero-container {
