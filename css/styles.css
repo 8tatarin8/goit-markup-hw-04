@@ -380,6 +380,7 @@ address {
 .section-our-goals-item {
     width: calc((100% - 3*24px) / 4);
 }
+.our-goals-icons {}
 
 .section-our-goals-title {
     font-style: normal;
