@@ -380,6 +380,17 @@ address {
 .section-our-goals-item {
     width: calc((100% - 3*24px) / 4);
 }
+
+.our-goals-svg-icons-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    height: 112px;
+}
+
 .our-goals-icons {}
 
 .section-our-goals-title {
