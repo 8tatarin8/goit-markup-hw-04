@@ -291,7 +291,7 @@ address {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     /*можлива помилка*/
     min-width: 169px;
@@ -326,12 +326,10 @@ address {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    /*багатошаровість/затемнення*/
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.70), 
         rgba(46, 47, 66, 0.70)
-        ),
-    /*шлях до картинки*/    
+        ),   
     url('../images/hero/bg-people-office\ 1.jpg');
     background-size: cover;
 }    
@@ -468,9 +466,7 @@ address {
 .social-networks-item {
     width: 40px;
     height: 40px;
-    background-color: var(--color-web);
-    border-radius: 50%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .social-networks-link {
@@ -479,6 +475,9 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--color-web);
+    border-radius: 50%;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 /*прописую HOVER/FOCUS*/
