@@ -332,6 +332,9 @@ address {
         ),   
     url('../images/hero/bg-people-office.jpg');
     background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
 }    
 
 .hero-container {
