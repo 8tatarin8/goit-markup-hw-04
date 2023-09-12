@@ -598,10 +598,11 @@ address {
 .footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
-.logo-text-footer-box {}
+.logo-text-footer-box {
+    margin-right: 120px;
+}
 
 .logo-webstudio-text {
     font-weight: 700;
